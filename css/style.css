@@ -1,0 +1,1112 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*start nav-menu*/
+.menu-nav{
+    background-color:#083f85;  
+}
+
+@font-face{
+  font-family: far;
+  src: url(../fonts/AraESNawar-Regular.otf);
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color:#fcac0c;
+    font-weight: bold;
+    font-family: sara;
+    position: relative;
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link::after{
+    position: absolute;
+    content: '';
+    top: 39px;
+    left: 31px;
+    background-color: #fcac0c;
+    width: 50px;
+    height: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #e2e2e2;
+    font-size: 20px;
+     font-family: sara;
+     padding-left: 28px;
+     font-weight: bold;
+    transition: all .4s ease-in;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fcac0c
+}
+
+.carousel-control-next, .carousel-control-prev{
+    opacity: 1;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width:32px;
+    height: 32px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 10%;
+}
+
+@font-face{
+    font-family:arial;
+    src:url(../fonts/Arial-Bold_4265.ttf);
+}
+
+.sellater{
+   color: #181818;
+   background:#fcac0c;
+   text-transform: uppercase;
+   text-decoration: none !important;
+   font-weight: bold;
+    padding: 5px 16px;
+    border-radius: 15px;
+    font-size: 15px; 
+}
+
+
+.navbar{
+   padding: 30px 50px;
+    background: #083f85;
+}
+
+
+.navbar-light{
+ transition:500ms ease;
+}
+
+.navbar-light.scrolled{
+  background:#000;
+  padding: 10px;
+}
+
+.carousel-caption{
+    top:126px;
+}
+
+@font-face{
+    font-family:arial1;
+    src:url(../fonts/Arial Bold.ttf);
+} 
+
+.carousel-caption p{
+
+    text-transform: capitalize;
+    font-size: 18px;
+    border-top: 2px solid #4f76a8;
+    border-bottom: 2px solid #4f76a8;
+    padding: 15px 0px;
+    text-align: left;
+    padding-left: 24px;
+    font-family:arial1; 
+
+}
+
+.carousel-caption h1{
+   
+    font-weight: bold;
+    font-size: 49px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: arial;
+
+}
+
+.carousel-item .w-100 {
+    width:64%!important;
+    margin: 211px auto 90px;
+}
+
+
+.carousel-item{
+   
+    background:#083f85;
+}
+
+
+/*slide-show*/
+
+
+/*
+.slid-1{
+    background:#083f85;
+    width: 75% !important;
+ 
+}
+
+
+.slid-2{
+    background: #ddd;
+     width: 75% !important;
+   
+     
+}
+
+.slid-3{
+    background: #000;
+     width: 75% !important;
+   
+}
+
+
+.owl-item{
+    width: 16% !important;
+}
+
+
+.owl-item.active{
+    margin-left: -90px;
+}
+*/
+
+
+
+
+/*section two*/
+
+.section-two .row{
+    margin: 0px;
+}
+
+.section-two .col-sm-4{
+    padding: 0px;
+}
+
+.list-icon ul{
+    display:inline-flex;
+    margin-top: 94px;
+}
+
+@font-face{
+    font-family:val;
+    src:url("../fonts/VIP Hala Bold VIP Hala Bold.otf");
+}
+
+.content h2{
+    font-family: val;
+    font-size: 37px;
+    padding-top: 90px;
+    position: relative;
+    
+}
+
+
+.content h2:after{
+    content: '';
+    width: 85px;
+    height: 2px;
+    background: #fcac0c;
+    position: absolute;
+    top: 152px;
+    left: 398px
+}
+
+
+@font-face{
+     font-family:far-cas;
+    src:url("../fonts/Far_Casablanca.ttf");
+    
+}
+.content .marks{
+    font-family: far-cas;
+    color: #7c7e81;
+    font-size: 24px;
+    margin-top: 40px;
+    
+    
+}
+
+@font-face{
+    font-family:val;
+    src:url("../fonts/VIP Hala Bold VIP Hala Bold.otf"); 
+}
+
+.list-icon p{
+    font-family: val;
+    color: #424242;
+    margin-top: 25px
+}
+
+.list-icon img{
+    width: 76%;
+    object-fit: contain;
+    border: 1px solid #ddd;
+    padding: 27px;
+
+
+}
+
+/*section-three*/
+
+.section-three{
+    background: #f5f5f5;
+    padding: 40px 0px;
+}
+
+/*
+.section-three .owl-carousel .owl-item img{
+    object-fit: contain;
+    height: 63px;
+   
+}
+*/
+/*section-four*/
+
+.section-four{
+    height: 860px;
+}
+
+.tab-content{
+    height: 860px;
+}
+
+.section-four .product-one {
+    background: #083f85;
+    padding: 35px;
+    height: 860px;
+}
+
+.section-four .row{
+    margin: 0px;
+    
+}
+
+.section-four .col-sm-3{
+    padding: 0px;
+}
+
+.section-four .col-sm-9{
+    padding: 0px;
+}
+
+@font-face{
+    font-family:val;
+    src:url("../fonts/VIP Hala Bold VIP Hala Bold.otf"); 
+}
+
+.product-one h2{
+    color: #fcac0c;
+    font-family: val;
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background: none;
+}
+
+.nav-pills .nav-link:hover{
+    color: #fff;
+}
+
+.nav-pills{
+  margin-top:124%;
+}
+
+.nav-pills img{
+    margin-left: 20px;
+    width: 9%;
+    object-fit: contain;
+}
+
+.nav-pills .nav-link{
+    color:#849fc2;
+    font-family: val;
+    font-size: 16px;
+    padding: 15px;
+    transition: all ease-in .3s
+}
+
+@font-face{
+     font-family:far;
+   src:url("../fonts/Far_Casablanca.ttf");
+}
+
+.all {
+   font-family:far;
+    color: #505050;
+    font-size: 20px;
+    padding-bottom: 50px;
+   
+}
+
+.elemt-prod{
+    padding: 25px;
+}
+
+.prod-feat{
+    text-align: center;
+}
+
+@font-face{
+    font-family:ara;
+    src:url(../fonts/AraESNawar-Regular.otf);
+}
+.prod-feat h3{
+    font-family: ara;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #2f2f2f;
+}
+
+.prod-feat p{
+    font-family: far;
+    color: #7e7e7e;
+    font-size: 18px;
+}
+
+.prod-feat img{
+    height: 36px;
+    object-fit: contain;
+
+}
+
+.lin-under{
+   width: 128px;
+    height: 2px;
+    background:#fcac0c;
+    margin-right: 10px;
+}
+
+.location p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.tab-content>.active{
+    position: relative;
+    height: 100%;
+}
+
+.nav-link i{
+    margin-left: 15px;
+    font-size: 22px;
+}
+
+/*section-five*/
+.section-five{
+    background-color: #f1f1f1;
+}
+
+.section-five h2{
+    text-align: center;
+    font-family: val;
+    color: #151515;
+    padding-top: 60px;
+    
+}
+
+.section-five .line-two{
+  
+    width: 76px;
+    height: 2px;
+    background:#fcac0c;
+    margin: auto;
+}
+
+.section-five .feat {
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: all .1s ease-in;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #ddd;
+}
+
+.section-five .feat img{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    
+}
+
+.section-five .feat p{
+    color: #505050;
+    font-family: far;
+    font-size: 18px;
+    height: 55px;
+    overflow: hidden;
+}
+
+.collection-feat{
+    margin-top: 60px;
+    padding-bottom: 60px;
+    
+   
+}
+
+.section-five .feat:hover{
+    outline: 2px solid #fcac0c;
+    outline-offset: 5px;
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    box-shadow: 3px 3px 3px #ddd;
+    transition: all ease .5s;
+  
+  
+}
+
+.section-five .feat
+{
+      overflow: hidden;
+    transition: all ease .5s;
+   
+    
+}
+
+/*contact-us*/
+
+.contact-us .row{
+    margin: 0px;
+    
+}
+.call-us h2{
+    font-family: val;
+}
+
+.contact-us .col-sm-4{
+    padding: 0px;
+}
+
+.lin-three{
+    width: 113px;
+    height: 2px;
+    background:#fcac0c; 
+}
+
+.call-us{
+    margin: 50px 25px;
+}
+
+.call-us  p{
+   font-family: far;
+    color: #707070;
+    font-size: 18px;
+    margin: 20px 0px;
+}
+
+.call-us .form-control {
+    width: 69%;
+    height: calc(3rem + 2px);
+    background-color: #e4e4e4;
+}
+
+::placeholder{
+    font-family: val;
+    font-size: 13px;
+}
+
+#exampleFormControlTextarea1{
+   height: 130px;
+    padding-top: 14px;
+}
+
+.fill-data button{
+    width: 244px;
+    background:#fcac0c;
+    font-family: far;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+
+/*social*/
+
+.social{
+    background: #04326c;
+    padding-top: 40px;
+}
+
+
+
+.logo-content p{
+    color: #b6bdcb;
+    font-family: far;
+    font-size: 19px;
+}
+
+
+.social-link h3{
+    color:#fcac0c; 
+    font-family: val;
+}
+.clickable ul{
+    
+   display: inline-flex;
+    margin-top: 15px;
+}
+
+.clickable ul li a{
+    color: #fff;
+    font-family: far;
+    font-size: 19px;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.social-link{
+    padding-top: 35px;
+}
+
+.click-social ul{
+    display: inline-flex;
+}
+
+.click-social ul li{
+
+   width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 35px;
+
+}
+
+.click-social ul li a{
+
+   color:  #04326c;
+    
+}
+
+.click-social{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.copwrite {
+    
+ background: #fcac0c;
+}
+
+.copwrite p{
+    font-family: val;
+    margin: 0px;
+    font-size: 13px;
+    padding: 23px 0px;
+    
+}
+
+/*start responsive*/
+
+@media(min-width:425px) and (max-width:767px){
+    
+    .navbar{
+        background: none;
+    }
+    
+    .navbar-light .navbar-toggler{
+        color: #fff !important;
+    }
+    
+    .navbar-toggler{
+        background-color: #fff;
+    }
+    
+    
+    .navbar-light .navbar-nav .active>.nav-link::after{
+        left: 245px;
+    }
+    
+    
+    .carousel-item .w-100 {
+    width: 76%!important;
+    margin: 50px auto 30px;
+}
+    
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 20px;
+    height: 20px;
+}
+    
+    .carousel-control-next, .carousel-control-prev {
+    width: 15%;
+}
+    
+    .navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 8px;
+    background: #fff;
+}
+    
+  .navbar-light .navbar-nav .nav-link{
+        color: #083f85;
+    }
+    
+    .nav-item{
+        padding-right: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    
+    .navbar {
+    padding: 18px 23px;
+    }
+    
+    .navbar-light .navbar-nav .active>.nav-link::after{
+        display: none;
+    }
+    
+    .sellater{
+        display: none;
+    }
+    /*section two*/
+    
+    .content h2 {
+   
+    font-size: 27px;
+    padding-top: 23px;
+   
+}
+ 
+ .content h2:after{
+      top: 66px;
+    left: 152px
+    }
+    
+    .content .marks{
+        font-size: 16px;
+        margin-top: 30px;
+    }  
+    
+    
+   .list-icon ul {
+    display: inline-block;
+    margin-top: 7px;
+} 
+    
+    
+    .person  {
+        text-align: center;
+        margin-top: 23px;
+    }
+    
+    .person  img{
+       width: 85%;
+       margin: 0px auto 25px;
+    }
+    
+    .nav-pills {
+    margin-top: 10%;
+}
+    
+  .section-four {
+    height: auto;
+}
+    
+    .all{
+        font-size: 17px;
+        text-align: center;
+    } 
+    
+    .prod-feat h3{
+        font-size: 17px;
+    } 
+    
+    .prod-feat p{
+        font-size: 15px;
+    }
+    
+    .nav-pills .nav-link{
+        font-size: 13px;
+    }
+    .section-five h2{
+        padding-top: 22px;
+        font-size: 23px;
+    }
+    
+    .collection-feat{
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .section-five .feat{
+        height: auto;
+        padding: 0px;
+    }
+    
+    .section-five .feat img{
+        height: 60px;
+        margin-top: 15px;
+    }
+    
+    .section-five .feat p{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    
+    .section-five .feat:hover{
+        transform: scale(1,1);
+    }
+    
+    .call-us {
+    margin: 0px 0px;
+    text-align: center;
+}
+    
+    .lin-three {
+        margin: auto;
+    }
+    
+    .call-us h2{
+        font-size: 30px;
+    }
+    
+    
+    .call-us p{
+        font-size: 16px;
+    }
+    
+    .call-us .form-control{
+        width: 100%;
+    }
+    
+    ::placeholder{
+        font-size: 12px!important;
+    }
+    
+    .fill-data button{
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 21px;
+        margin-top: 0px;
+    }
+    
+    .logo{
+        text-align: center;
+        margin-bottom: 20px
+    }
+    
+    .logo-content p{
+        font-size: 17px;
+       text-align: center;
+    }
+    
+    
+    .social-link h3{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .clickable ul li a{
+        font-size: 16px;
+    padding-left: 23px;
+    }
+    
+    .click-social{
+        text-align: center;
+    }
+    
+    .copwrite p{
+        font-size: 11px;
+        padding: 12px;
+    }
+    
+    
+    .logo img{
+        width: 44%;
+    }
+    
+    
+    .nav-pills img{
+        width: 7%;
+    }
+    
+    
+    .section-three{
+        padding: 20px 0px;
+    }
+    
+    .navbar-light.scrolled {
+    background: #fcae11;
+}
+    
+    
+   .prod-feat {
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+    
+    .elemt-prod {
+    padding: 25px 0px;
+}
+  
+    .nav-link i{
+        font-size: 19px;
+    }
+    
+    
+    .section-four .product-one{
+        height: 450px;
+    }
+    
+    
+    .list-icon  ul li{
+        width: 49%;
+        float: left;
+    }
+    
+    .list-icon img{
+        width: 64%;
+    }
+    
+    .list-icon p{
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    
+    
+}
+
+@media(min-width:768px) and (max-width:991px){
+    
+    
+    .nav-pills{
+        margin-top: 117%;
+    }
+    
+    .navbar-toggler{
+        background-color: #fff;
+    }
+    
+    .sellater{
+        display: none;
+    }
+    
+    .navbar-collapse{
+    background: #fff;
+    margin-top: 10px;
+    } 
+    
+    
+    .navbar {
+    padding: 18px 15px;
+        
+    }
+    
+   .navbar-light .navbar-nav .nav-link {
+    color: #083f85;
+       
+    }
+    
+    
+    .carousel-caption h1{
+        font-size: 35px;
+    }
+    
+    .carousel-caption {
+    top: 84px;
+}
+    
+   .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 25px;
+    height: 25px;
+} 
+    
+    .carousel-caption {
+        display: none !important;
+    } 
+    
+    
+   .carousel-item .w-100 {
+    width: 71%!important;
+    margin: 90px auto 35px;
+}
+    
+    .navbar-light .navbar-nav .nav-link:hover{
+        cursor: pointer;
+    }
+    
+    .content h2{
+    font-size: 28px;
+    padding-top: 25px;
+    }
+    
+    
+    .content h2:after{
+        top: 70px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        margin: 0px auto;
+    }
+    
+    
+    .content .marks{
+        font-size: 20px;
+    }
+    
+    .list-icon ul {
+    display: inline-flex;
+    margin-top: 0px;
+}
+    
+    .list-icon img{
+        width: 100%;
+    }
+    
+    
+    .list-icon ul li{
+        margin-left: 10px;
+    }
+    
+    .list-icon p{
+        margin: 10px 0px;
+        font-size: 14px;
+    }
+ 
+    .section-three
+    {
+        padding: 20PX 0PX;
+    }
+    
+    .section-four .product-one{
+        padding: 35px 0px;
+        height: 650px;
+    }
+    
+    .nav-link i{
+        font-size: 19px;
+    }
+    
+    .product-one h2{
+        font-size: 25px;
+    }
+    
+    .lin-under {
+    width: 96px;
+    }
+    
+    
+    .nav-pills .nav-link{
+        font-size: 11px;
+    }
+    
+    
+    .nav-pills img{
+        width: 12%;
+    } 
+    
+    
+    .all{
+        font-size: 18px;
+    }
+    
+    
+    .prod-feat img {
+    height: 30px;
+    }
+    
+    .prod-feat h3 {
+  
+    font-size: 16px;
+    margin-top: 15px;
+    }
+    
+    .prod-feat p{
+        font-size: 15px;
+    }
+    
+    
+    .section-four {
+    height: 651px;
+}
+    
+    .section-five .feat p{
+        font-size: 16px;
+    }
+    
+    
+    .call-us {
+    margin: 35px 25px;
+}
+    
+    .section-five h2{
+        font-size: 28px;
+        padding-top: 35px;
+    }
+    
+    .call-us .form-control {
+    width: 100%;
+    }
+    
+    .call-us h2{
+        font-size-adjust: 28px;
+    }
+    
+    .social-link h3{
+        font-size: 22px;
+    }
+    
+    
+    .logo-content p{
+        font-size: 17px;
+    }
+    
+    .copwrite p{
+        padding: 16px 0px;
+        font-size: 11px;
+    }
+   
+}
+
+@media(min-width:992px) and (max-width:1199px){
+    
+     .carousel-caption h1{
+        font-size: 42px;
+    }
+    
+    .content h2:after{
+        left: 0px;
+        right: 0px;
+        top: 97px;
+        bottom: 0px;
+        margin: 0px auto;
+    }
+    
+    .content h2{
+    font-size: 34px;
+    padding-top: 38px;
+   
+    }
+    
+    .list-icon ul{
+        margin-top: 35px;
+    }
+    
+    .section-four .product-one{
+        padding: 35px 0px;
+    }
+    
+    
+    .call-us .form-control {
+    width: 100%;
+    }
+    
+    .call-us {
+    margin: 24px 25px;
+}
+    
+}
+
